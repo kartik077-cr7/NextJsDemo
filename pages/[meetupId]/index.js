@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 function MeetupDetails(props) {
      
-    console.log(props.image);
+    console.log(props.meetupData);
     return (
     <Fragment>    
         <Head>
